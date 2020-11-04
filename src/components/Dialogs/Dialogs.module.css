@@ -1,0 +1,33 @@
+.dialogs_content {
+  display: grid;
+  grid-template-columns: 5fr 10fr;
+}
+
+.dialogs_items, .messages {
+  padding: 20px;
+  border-right: 1px solid rgba(144, 144, 144, 0.3);
+}
+
+textarea {
+  width: 70%;
+  height: 70px;
+  border: 1px solid #aa8086c5;
+  padding: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  margin: 10px 0 10px auto;
+}
+
+textarea::placeholder {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px 30px;
+  color: #ffffff;
+  background-color: #b7707d;
+  display: flex;
+  margin-left: auto;
+  font-size: 15px;
+}

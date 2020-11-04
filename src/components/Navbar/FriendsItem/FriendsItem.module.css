@@ -1,0 +1,11 @@
+.person {
+    margin: 6px 6px 6px 0;
+}
+.img {
+    width: 50px;
+}
+.link {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

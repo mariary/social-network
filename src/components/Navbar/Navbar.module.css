@@ -1,0 +1,29 @@
+.nav {
+    grid-area: n;
+    background-color: #b7707d;
+    padding: 20px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+  .link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .link:hover, .link.active {
+    color: #dad5d5;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+
+  .friends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .title {
+    width: 100%;
+    color: #ffffff;
+  }
+  

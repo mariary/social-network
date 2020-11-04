@@ -1,0 +1,26 @@
+
+.item {
+  margin: 0px 10px 50px;
+  font-size: 20px;
+}
+.item::before {
+  content: "";
+  background: url("https://cdn1.iconfinder.com/data/icons/rcons-line-ios-3/32/note-512.png")
+    no-repeat;
+  background-size: 25px;
+  padding-right: 35px;
+}
+
+.likes {
+  margin-left: 15px;
+  display: inline;
+}
+
+.likes::before {
+  content: "";
+  background: url("https://mzz.com.ua/files/2019/11/cropped-health-symbol-png-4662163.png")
+    no-repeat;
+  background-size: 25px;
+  background-position: left;
+  padding: 5px 30px 10px 0;
+}

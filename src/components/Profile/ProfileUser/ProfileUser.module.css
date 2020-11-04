@@ -1,0 +1,13 @@
+.profile_user img {
+  width: 100%;
+  height: 150px;
+}
+.user img {
+  float: left;
+  width: auto;
+  margin-right: 20px;
+}
+
+.post {
+  margin: 50px 50px 50px 10px;
+}

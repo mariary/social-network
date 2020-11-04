@@ -1,0 +1,27 @@
+.message {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    background: rgba(158, 158, 158, 0.19);
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin: 0 10px;
+}
+.img {
+    width: 50px;
+}
+
+.time {
+    font-size: 10px;
+    height: 0;
+    color: #929191;
+}

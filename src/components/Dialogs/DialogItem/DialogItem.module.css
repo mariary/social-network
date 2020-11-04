@@ -1,0 +1,19 @@
+.person {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(144, 144, 144, 0.09);
+    border-radius: 25px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+}
+.link:hover, .link.active {
+    color: rgb(94, 92, 92);
+}
+.img {
+    width: 30px;
+    margin-right: 10px;
+}
